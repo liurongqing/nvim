@@ -5,7 +5,6 @@
 ![License](https://img.shields.io/badge/Packer.nvim-Plugin%20Manager-brightgreen)
 ![License](https://img.shields.io/badge/Coc.nvim-Extension-brightgreen)
 [![vim-startify](https://img.shields.io/badge/vim--startify-Plugin-brightgreen)](https://github.com/mhinz/vim-startify)
-
 ---
 
 这是一份基于 macbook 的 nvim 完整的配置
