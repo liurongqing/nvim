@@ -20,7 +20,9 @@ vim.opt.tabstop = 2
 vim.opt.softtabstop = 2
 
 -- >> << 时移动长度
-vim.opt.shiftround = 2
+vim.opt.shiftround = true
+vim.opt.shiftwidth = 2
+
 
 -- 补全最多显示 10 行
 vim.opt.pumheight = 10

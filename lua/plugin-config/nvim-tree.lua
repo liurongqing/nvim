@@ -4,6 +4,9 @@ require("nvim-tree").setup({
     enable = false,
   },
   filters = {
-    dotfiles = true,
+    -- dotfiles = true,
+    custom = {
+      "^\\.git$"
+    }
   },
 })

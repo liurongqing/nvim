@@ -6,16 +6,21 @@ packer.startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
 
+  -- 开机页面
+  use "mhinz/vim-startify"
+
   -- 树菜单
   use {
     'nvim-tree/nvim-tree.lua',
     requires = {
       'nvim-tree/nvim-web-devicons', -- optional
     }
-    end
   }
 
   -- 主题
   use { "catppuccin/nvim", as = "catppuccin" }
+
+  -- 补全插件
+  use {'neoclide/coc.nvim', branch = 'release'}
   
 end)

@@ -7,10 +7,13 @@
 --   command_mode = "c",
 
 
-vim.opt.mapleader = ";"
+vim.g.mapleader = ";"
+
 local opt = { noremap = true, silent = true }
 local map = vim.api.nvim_set_keymap
+-- local map = vim.keymap
 map("n", "<leader><leader>", ":NvimTreeToggle<CR>", opt)
+map("n", "<leader>f", ":CocCommand prettier.forceFormatDocument<CR>", opt)
 
 -------------------------------
 -- 窗格快捷键
