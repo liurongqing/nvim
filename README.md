@@ -4,7 +4,6 @@
 ![License](https://img.shields.io/badge/License-MIT-brightgreen)
 ![Packer.nvim](https://img.shields.io/badge/Packer.nvim-Plugin%20Manager-brightgreen)
 ![Coc.nvim](https://img.shields.io/badge/Coc.nvim-Extension-brightgreen)
-
 [![vim-startify](https://img.shields.io/badge/vim--startify-Plugin-orange)](https://github.com/mhinz/vim-startify)
 [![nvim-tree](https://img.shields.io/badge/nvim--tree-Plugin-orange)](https://github.com/nvim-tree/nvim-tree.lua)
 [![catppuccin](https://img.shields.io/badge/catppuccin-Plugin-orange)](https://github.com/catppuccin/nvim)
