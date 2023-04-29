@@ -95,6 +95,6 @@
 
 ### 参考文献
 
-[Tmux使用手册]: http://louiszhai.github.io/2017/09/30/tmux/ "2017年的了"
-[Tmux使用教程 - 阮一峰]: http://www.ruanyifeng.com/blog/2019/10/tmux.html "基本使用"
-[tmux: Productive Mouse-Free Development]: https://www.kancloud.cn/kancloud/tmux/62459 "实用"
+- [Tmux使用手册(2017年)](http://louiszhai.github.io/2017/09/30/tmux/)
+- [Tmux使用教程 - 阮一峰](http://www.ruanyifeng.com/blog/2019/10/tmux.html)
+- [tmux: Productive Mouse-Free Development](https://www.kancloud.cn/kancloud/tmux/62459)
