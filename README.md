@@ -2,15 +2,15 @@
 
 ![Neovim](https://img.shields.io/badge/Neovim-v0.9.0-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-brightgreen)
-![License](https://img.shields.io/badge/Packer.nvim-Plugin%20Manager-brightgreen)
-![License](https://img.shields.io/badge/Coc.nvim-Extension-brightgreen)
-[![vim-startify](https://img.shields.io/badge/vim--startify-Plugin-brightgreen)](https://github.com/mhinz/vim-startify)
+![Packer.nvim](https://img.shields.io/badge/Packer.nvim-Plugin%20Manager-brightgreen)
+![Coc.nvim](https://img.shields.io/badge/Coc.nvim-Extension-brightgreen)
+[![vim-startify](https://img.shields.io/badge/vim--startify-Plugin-orange)](https://github.com/mhinz/vim-startify)
+[![nvim-tree](https://img.shields.io/badge/nvim--tree-Plugin-orange)](https://github.com/nvim-tree/nvim-tree.lua)
+[![catppuccin](https://img.shields.io/badge/catppuccin-Plugin-orange)](https://github.com/catppuccin/nvim)
+[![telescope](https://img.shields.io/badge/telescope-Plugin-orange)](https://github.com/nvim-telescope/telescope.nvim)
 ---
 
 这是一份基于 macbook 的 nvim 完整的配置
-
-使用了 Packer.nvim 包管理，使用了下列插件, 当前在  neovim 0.9.0 中使用。
-
 
 1. 环境变量
 
