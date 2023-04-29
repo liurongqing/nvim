@@ -4,14 +4,21 @@
 
 1. 准备工作
   1. 环境变量
+
     `vim ~/.zshrc`
-    ```shell
-    alias vim="nvim"
-    alias vi="nvim"
-    alias v="nvim"
-    alias n="nvim"
-    ```
+        ```shell
+        alias vim="nvim"
+        alias vi="nvim"
+        alias v="nvim"
+        alias n="nvim"
+        ```
   1. 安装 tmux
+
+      参考地址：https://github.com/tmux/tmux
+        ```shell
+        brew install tmux
+        ```
+      配置：https://github.com/gpakosz/.tmux
   1. 安装 nvim
   1. 安装 字体
   1. packer.nvim 安装
@@ -29,8 +36,7 @@
       ```shell
       # :CocInstall coc-json coc-tsserver coc-eslint coc-prettier coc-emmet coc-snippets
       ```
-
-
-
-## Todo
-- [ ] 基于 shell 自动化安装，卸载
+  1. brew 安装 ripgrep 以支持 live_grep 全局搜索字符
+    ```shell
+    brew install ripgrep
+    ```

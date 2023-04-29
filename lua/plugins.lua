@@ -22,5 +22,11 @@ packer.startup(function(use)
 
   -- 补全插件
   use {'neoclide/coc.nvim', branch = 'release'}
+
+  -- 搜索
+  use {
+    'nvim-telescope/telescope.nvim', tag = '0.1.1',
+    requires = { {'nvim-lua/plenary.nvim'} }
+  }
   
 end)
