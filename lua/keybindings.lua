@@ -45,3 +45,7 @@ keyset("v", ">", ">gv", opt)
 -- 退出
 keyset("n", "qq", ":q!<CR>", opt)
 keyset("n", "<leader>q", ":qa!<CR>", opt)
+
+-- 选中内容前后加引号
+keyset("v", "<leader>'", ":s/\\%V\\(\\w\\+\\)/'\\1'<CR>", opt)
+keyset("v", "<leader>\"", ":s/\\%V\\(\\w\\+\\)/\"\\1\"<CR>", opt)

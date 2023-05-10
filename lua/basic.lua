@@ -28,7 +28,7 @@ vim.opt.shiftwidth = 2
 vim.opt.pumheight = 10
 
 -- 等待键盘连击时间
-vim.opt.timeoutlen = 300
+vim.opt.timeoutlen = 500
 
 -- 关闭下方状态栏
 -- vim.opt.showmode = false
