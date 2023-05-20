@@ -28,5 +28,13 @@ packer.startup(function(use)
     'nvim-telescope/telescope.nvim', tag = '0.1.1',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
+
+  -- 补全括号 影响了自动补全回车操作
+  --[[
+  use {
+    "windwp/nvim-autopairs",
+    config = function() require("nvim-autopairs").setup {} end
+  }
+  --]]
   
 end)
