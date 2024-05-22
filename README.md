@@ -48,7 +48,7 @@
     参考地址：https://github.com/ryanoasis/nerd-fonts/#option-4-homebrew-fonts
 
     ```shell
-    brew tap homebrew/cask-fonts
+    # brew tap homebrew/cask-fonts 已经移入核心，不需要加这句了
     brew install font-hack-nerd-font
 
     # 安装好以后在 iterm2 中设置 `Profiles` -> `Text` -> `Non-ASCII Font`
