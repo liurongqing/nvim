@@ -78,9 +78,10 @@
     ```
 
 1. Coc.nvim 相关插件安装
-
+   需要先安装 node， 可以安装 nvm 管理 node 版本
     ```shell
-    # :CocInstall coc-json coc-tsserver coc-eslint coc-prettier coc-emmet coc-snippets
+    # 输入 nvim 命令，然后安装以下插件
+    :CocInstall coc-json coc-tsserver coc-eslint coc-prettier coc-emmet coc-snippets
     ```
 
 1. brew 安装 ripgrep 以支持 live_grep 全局搜索字符
