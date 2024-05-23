@@ -73,7 +73,8 @@
 1. packer.nvim 管理的插件安装
 
     ```shell
-    # :PackerSync
+    # 输入 nvim 命令，然后输入以下命令安装同步
+    :PackerSync
     ```
 
 1. Coc.nvim 相关插件安装
