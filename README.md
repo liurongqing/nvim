@@ -85,18 +85,18 @@
     ```
 
 1. 安装插件以支持 telescope 搜索
-   1. ripgrep
+   1. ripgrep    
       https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation
       ```shell
       brew install ripgrep
       ```
-   1. sharkdp/fd
+   1. sharkdp/fd    
       https://github.com/sharkdp/fd?tab=readme-ov-file#installation
       ```shell
       brew install fd
       ```
-   1. nvim-treesitter
-      https://github.com/nvim-treesitter/nvim-treesitter/wiki/Installation
+   1. nvim-treesitter    
+      https://github.com/nvim-treesitter/nvim-treesitter/wiki/Installation    
       在 `lua/plugins.ua` 中添加
       ```shell
       use {
