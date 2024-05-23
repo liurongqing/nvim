@@ -17,7 +17,7 @@
     `vim ~/.zshrc`
 
     ```shell
-    alias vim="nvim"
+    # alias vim="nvim" # 留条路，万一 nvim 崩了，还能用 vim 临时编辑
     alias vi="nvim"
     alias v="nvim"
     alias n="nvim"
