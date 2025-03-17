@@ -35,3 +35,9 @@ vim.opt.timeoutlen = 500
 
 -- 配置默认剪切板到系统中
 vim.opt.clipboard = "unnamedplus"
+
+-- 禁用以下检测 :checkhealth
+vim.g.loaded_perl_provider = 0
+vim.g.loaded_node_provider = 0
+vim.g.loaded_python3_provider = 0
+vim.g.loaded_ruby_provider = 0

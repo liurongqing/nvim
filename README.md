@@ -95,13 +95,9 @@
       ```shell
       brew install fd
       ```
-   1. nvim-treesitter    
-      https://github.com/nvim-treesitter/nvim-treesitter/wiki/Installation    
-      在 `lua/plugins.ua` 中添加
-      ```shell
-      use {
-        'nvim-treesitter/nvim-treesitter',
-        run = ':TSUpdate'
-      }
-      ```
 
+1. 健康检查
+
+    ```shell
+    :checkheal
+    ```
