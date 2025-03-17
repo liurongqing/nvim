@@ -51,9 +51,9 @@ keyset("v", "<leader>'", ":s/\\%V\\(\\w\\+\\)/'\\1'<CR>", opt)
 keyset("v", "<leader>\"", ":s/\\%V\\(\\w\\+\\)/\"\\1\"<CR>", opt)
 
 -- 自动补全括号
-keyset("i", "{", "{}<LEFT><LEFT>", opt)
-keyset("i", "(", "()<LEFT><LEFT>", opt)
-keyset("i", "[", "[]<LEFT><LEFT>", opt)
+keyset("i", "{", "{}<LEFT>", opt)
+keyset("i", "(", "()<LEFT>", opt)
+keyset("i", "[", "[]<LEFT>", opt)
 keyset("i", "'", "''<LEFT>", opt)
 keyset("i", "\"", "\"\"<LEFT>", opt)
 
