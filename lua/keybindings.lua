@@ -13,7 +13,11 @@ local opt = { noremap = true, silent = true }
 -- local map = vim.api.nvim_set_keymap
 -- local map = vim.keymap
 local keyset = vim.keymap.set
+
+-- 打开树目录
 keyset("n", "<leader><leader>", ":NvimTreeToggle<CR>", opt)
+
+-- 格式化代码
 keyset("n", "<leader>f", ":CocCommand prettier.forceFormatDocument<CR>", opt)
 
 -------------------------------
