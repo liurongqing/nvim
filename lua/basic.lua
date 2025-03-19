@@ -1,6 +1,10 @@
 vim.opt.encoding = "UTF-8"
 vim.opt.fileencoding = "utf-8"
 
+-- 按缩进折叠
+vim.o.foldmethod = 'indent'
+vim.o.foldlevel = 99
+
 -- 显示行号
 vim.opt.number = true 
 vim.opt.relativenumber = true
