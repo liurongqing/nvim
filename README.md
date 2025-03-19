@@ -99,5 +99,5 @@
 1. 健康检查
 
     ```shell
-    :checkheal
+    :checkhealth
     ```
