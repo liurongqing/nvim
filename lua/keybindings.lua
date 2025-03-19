@@ -33,6 +33,8 @@ keyset("n", "<leader>h", "<C-w>h", opt)
 keyset("n", "<leader>j", "<C-w>j", opt)
 keyset("n", "<leader>k", "<C-w>k", opt)
 keyset("n", "<leader>l", "<C-w>l", opt)
+keyset("n", "<leader>w", "<C-w>w", opt)
+
 
 -- 上下滚动浏览
 keyset("n", "<C-j>", "5j", opt)
