@@ -33,8 +33,19 @@
 3. :normal! $F;d$ 【$F定位到最后一个;号，然后删除到;及之后】
 
 **nvim-tree**
-H： 切换显隐 . 开头文件
-I: 切换显隐 .gitignore 里的文件
+
+- H： 切换显隐 . 开头文件
+- I: 切换显隐 .gitignore 里的文件
+- Ctrl + T 新建窗口
+- Ctrl + V 拆垂直窗格
+- Ctrl + X 拆水平窗格
+
+
+
+
+**nvim 窗口**
+:tabnew 新建窗口
+{n}gt 跳转到指定窗口
 
 
 ---
