@@ -73,6 +73,9 @@
 **递增数字**
 Ctrl + A
 
+**提示选择**
+Ctrl + p 上一个 prev
+Ctrl + n 下一个 next
 
 ---
 
