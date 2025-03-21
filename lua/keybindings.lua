@@ -49,7 +49,7 @@ keyset("v", "<", "<gv", opt)
 keyset("v", ">", ">gv", opt)
 
 -- 退出
-keyset("n", "qq", ":q!<CR>", opt)
+-- keyset("n", "qq", ":q!<CR>", opt) -- 不合适，q与宏录制冲突
 keyset("n", "<leader>q", ":qa!<CR>", opt)
 
 -- 选中内容前后加引号
