@@ -69,6 +69,10 @@
 
 **跳到函数定义的地方**
 停留在调用的函数名字上，然后按 gd
+
+**Ctrl + A**
+递增数字
+
 ---
 
 <img width="1474" alt="vim" src="https://user-images.githubusercontent.com/26001948/235313374-13e3cc83-2ad0-40cf-8366-592dbebc26ab.png">
