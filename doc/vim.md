@@ -80,6 +80,10 @@ Ctrl + n 下一个 next
 **粘贴最近一次复制内容**
 Ctrl + r + 0 或者  "0p
 
+
+**tmux 内容太长，如何进入滚动**
+Ctrl+A [ 然后用 上下箭头控制
+
 ---
 
 <img width="1474" alt="vim" src="https://user-images.githubusercontent.com/26001948/235313374-13e3cc83-2ad0-40cf-8366-592dbebc26ab.png">
